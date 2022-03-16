@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,500;1,600');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,200;0,300;0,500;0,900;1,100;1,300;1,500&display=swap');
 
 *{
  font-family: 'Noto Serif Display', serif;
@@ -107,7 +106,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   margin-bottom: 0;
- font-weight: 500;
+ font-weight: 900;
 }
 
 
@@ -213,20 +212,21 @@ padding-left: 0px;
 
 @media screen and (max-width: 667px) {
 .navigation {
-  font-size: 5vw;
-  line-height: 3em
+  font-size: 3.3vw;
+  line-height: 2.5em;
   }
 
 .intro {
   margin-top: 60px;
-}
+  }
 }
 
 @media screen and (max-width: 1500px) {
 .navigation {
   font-size: 2.7vw;
-  line-height: 2.8em
+  line-height: 2.2em;
   }
+
 .intro {
     margin-top: 60px;
   }
