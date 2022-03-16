@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,500;1,600');
+
+
+*{
+ font-family: 'Noto Serif Display', serif;
+}
+
+p {
+	color: #2E3638;
+}
+
+body {
+  margin-left: 0px;
+}
+
+h2 {
+ 	color: #2a9d8f;
+	font-family: 'Noto Serif Display', serif;
+  font-weight: 300;
+	font-size: 3em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-style: italic;
+  margin-top: 0;
+}
+
+h3 {
+ 	color: #f4a261;
+  font-family: 'Noto Serif Display', serif;
+	font-size: 18px;
+  line-height: 0.5;
+  padding-top: 20px;
+}
+
+h1 {
+	color:   #062439;
+	font-family:'Noto Serif Display', serif;
+  font-size: 4em;
+  font-style: italic;
+  font-weight: 500;
+	}
+
+.navigation li {
+	float:  left;
+}
+
+.navigation li a:hover {
+  background-color: #7d8f86;
+}
+
+
+.maintext {
+    padding-top: 20px;
+    margin-left: 2%;
+    width: 95%;
+  }
+
+.intro p {
+  font-size: 2.4em;
+  line-height: 1;
+}
+
+.introlink {
+  color: #2a9d8f;
+  font-family: 'Noto Serif Display', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.4em;
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.introlink a{
+  text-decoration: none;
+  color: #2a9d8f;
+}
+.introlink a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.navigation {
+  font-family: 'Noto Serif Display', serif;
+  list-style-type: none;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #062439;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 1.0em;
+  line-height: 3em;
+  padding-left: 2%;
+}
+
+.navigation li {
+  margin:  0;
+}
+
+.navigation li a {
+  display: block;
+  color: #EDEDE9;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0;
+  font-weight: 500;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+li a .logo
+{
+display: flex;
+padding-left: 0px;
+}
+
+.intro {
+		padding-top: 20px;
+		margin-left: 3%;
+		width: 85%;
+	}
+
+.headerimg {
+		padding-top: 30px;
+		width:  100%;
+	}
+
+.maintext{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.para {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 2;
+
+}
+.parabod{
+  max-width: 950px;
+  border-left: solid;
+  border-left-width: 3px;
+  border-color: black;
+  padding-left: 1%;
+  margin-bottom: 1%;
+  line-height: 1.5em;
+  font-size: 1.6em;
+
+}
+.parahead {
+  max-width: 310px;
+  min-width: 310px;
+}
+
+}
+
+.circleimg ul {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  margin-left: 5%;
+}
+
+.circleimg li {
+  list-style: none;
+}
+
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+}
+
+.projectitem
+{
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  max-width: 500px;
+  flex-grow: 1;
+  flex-basis: auto;
+  background-color: #edede9;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+
+.projectitem p
+{
+    font-size: 16px;
+    padding: 0;
+    line-height: 1.4;
+
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+}
+.skillsimg
+{
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+
+
