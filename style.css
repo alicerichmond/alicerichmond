@@ -11,7 +11,11 @@ p {
 }
 
 body {
-  margin-left: 0px;
+  margin: 0px;
+  background-color: #ecebe4;
+  border: solid;
+  border-width: 20px;
+  border-color: #fff;
 }
 
 h2 {
@@ -44,10 +48,12 @@ h1 {
 .navigation li {
 	display: flex;
   flex-direction: row;
+  margin:  0;
 }
 
 .navigation li a:hover {
-  background-color: #7d8f86;
+  background-color: #264653;
+  display: block;
 }
 
 
@@ -73,7 +79,7 @@ h1 {
 }
 .introlink a:hover {
   text-decoration: underline;
-  color: grey;
+  color: #264653;
 }
 
 .navigation {
@@ -81,7 +87,7 @@ h1 {
   margin: 0px;
   overflow: hidden;
   background-color: #2a9d8f;
-  position: fixed;
+  position: centre;
   top: 0;
   width: 100%;
   display: flex;
@@ -89,9 +95,6 @@ h1 {
   padding-left: 0;
 }
 
-.navigation li {
-  margin:  0;
-}
 
 .navigation li a {
   display: block;
@@ -102,6 +105,7 @@ h1 {
   font-weight: 400;
   padding-left: 5px;
   padding-right: 5px;
+  justify-content: space-evenly;
 }
 
 
@@ -178,7 +182,7 @@ padding-left: 0px;
   max-width: 600px;
   flex-grow: 1;
   flex-basis: auto;
-  background-color: #edede9;
+  background-color: #fff;
   padding-bottom: 20px;
   padding-top: 20px;
   padding-left: 5%;
@@ -205,7 +209,7 @@ padding-left: 0px;
   padding-right: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 799px){
 .navigation {
   display: none;
   }
@@ -259,7 +263,7 @@ padding-left: 0px;
  }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 800px) {
 .navigation {
   font-size: 2.3vw;
   line-height: 1.6em;
@@ -283,6 +287,28 @@ padding-left: 0px;
   padding-top: 0;
   margin-top: 0;
 }
+.lowpic {
+width: 100%;
+padding-left: 30%;
+}
+.hipic {
+padding-left: 40%;
+margin-bottom: -20%;
+opacity: 20%;
+}
+.alicepic {
+padding-left: 70%;
+margin-bottom: -25%;
+opacity: 80%;
+width: 30%;
+}
+
+.personahipic {
+padding-left: 55%;
+margin-bottom: -20%;
+opacity: 30%;
+}
+
 }
 
 
