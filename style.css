@@ -56,11 +56,6 @@ h1 {
     width: 95%;
   }
 
-.intro p {
-  font-size: 4vw;
-  line-height: 1;
-}
-
 .introlink {
   color: #2a9d8f;
   font-family: 'Noto Serif Display', serif;
@@ -85,7 +80,7 @@ h1 {
   list-style-type: none;
   margin: 0px;
   overflow: hidden;
-  background-color: #062439;
+  background-color: #2a9d8f;
   position: fixed;
   top: 0;
   width: 100%;
@@ -99,13 +94,12 @@ h1 {
 }
 
 .navigation li a {
-  font-family: 'League Spartan', sans-serif;
   display: block;
   color: #EDEDE9;
   text-align: center;
   text-decoration: none;
   margin-bottom: 0;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 
@@ -127,18 +121,6 @@ padding-left: 0px;
 		width:  100%;
 	}
 
-.maintext{
-  padding-top: 2%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-.projectintro p{
-  font-size: 4.5vw;
-  padding-top: 0;
-  margin-top: 0;
-}
 
 .para {
   display: flex;
@@ -163,6 +145,9 @@ padding-left: 0px;
   min-width: 310px;
 }
 
+.maintext{
+  padding-top: 2%;
+}
 
 .circleimg ul {
   display: flex;
@@ -178,8 +163,9 @@ padding-left: 0px;
 
 .project {
   display: flex;
-  flex-wrap: wrap;
   flex-direction:row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .projectitem
@@ -187,7 +173,7 @@ padding-left: 0px;
   display: flex;
   flex-direction: column;
   min-width: 200px;
-  max-width: 667px;
+  max-width: 600px;
   flex-grow: 1;
   flex-basis: auto;
   background-color: #edede9;
@@ -219,24 +205,82 @@ padding-left: 0px;
 
 @media screen and (max-width: 667px) {
 .navigation {
-  font-size: 3.8vw;
-  line-height: 3.5em;
+  display: none;
   }
+
+ /* (A) BREAK INTO VERTICAL MENU */
+#hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #2a9d8f;
+    font-size: 3em;
+  }
+#hamitems a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+ 
+/* (B) SHOW HAMBURGER ICON */
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background:#2a9d8f;
+    font-style: normal;
+    font-size: 1.6em;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+/* (C) TOGGLE SHOW/HIDE MENU */
+#hamitems { 
+  display: none; 
+}
+#hamburger{
+  display: none;
+}
+#hamnav input:checked ~ #hamitems { 
+  display: block; 
+}
+
 
 .intro {
   margin-top: 60px;
+  font-size: 6vw;
   }
+
+.projectintro p{
+  font-size: 6vw;
+  padding-top: 0;
+  margin-top: 0;
+ }
 }
 
 @media screen and (min-width: 668px) {
 .navigation {
-  font-size: 2.7vw;
-  line-height: 2.2em;
+  font-size: 2.3vw;
+  line-height: 1.6em;
   }
+
+#hamnav {
+  display: none;
+}
 
 .intro {
     margin-top: 60px;
   }
+
+.intro p {
+  font-size: 3vw;  
+  line-height: 1.4em;
+}
+
+.projectintro p{
+  font-size: 3vw;
+  padding-top: 0;
+  margin-top: 0;
+}
 }
 
 
