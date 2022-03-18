@@ -286,7 +286,10 @@ opacity: 30%;
 
 #hamitems { 
   display: none; 
+  list-style: none;
+ font-size: 0.5em;
 }
+
 #hamburger{
   display: none;
 }
