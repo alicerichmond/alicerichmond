@@ -37,10 +37,9 @@ h1 {
 	}
 
 .alicepic {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  z-index: -1;
-  position: absolute;
+width:  100%;
+height: 30vw;
+background-image: ./header.png;
 }
 
 .maintext {
@@ -196,10 +195,6 @@ padding-left: 0px;
   display: block;
 }
 
-.cont{
- padding-top: 33vw;
-}
-
 
 #hamnav {
   display: none;
@@ -225,7 +220,9 @@ padding-left: 0px;
 }
 
 #hamnav{
-margin-bottom: -50px;
+ position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #hamitems a {
@@ -233,7 +230,7 @@ margin-bottom: -50px;
     box-sizing: border-box;
     display: block;
     width: 100%;
-    color: #2a9d8f;
+    color: #ffffff;
     font-size: 3em;
 }
 
@@ -265,13 +262,6 @@ margin-bottom: -50px;
   display: block; 
 }
  
-.cont{
- padding-block: none;
-}
-
-.intro {
-  margin-top: 30vw;
-}
 
 
 }
